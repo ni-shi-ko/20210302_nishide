@@ -168,7 +168,7 @@
 }
 .company_img,
 .recruit_img {
-  width: 800px;
+  width: 45%;
   height: 250px;
   object-fit: cover;
 }
@@ -239,6 +239,7 @@
 /* contact */
 #contact {
   height: 600px;
+  margin:0 auto;
   background-image: url(../img/contact-bg.jpg);
   background-size: cover;
   background-position: center;
