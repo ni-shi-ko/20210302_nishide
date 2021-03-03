@@ -160,36 +160,6 @@
  
 /* company recruyite*/
 #company_wrap {
-  position: relative;
-  height: 500px;
-  padding-bottom: 100px;
-}
-.recruit_container {
-  width: 48%;
-  height: 250px;
-  position: absolute;
-  right: 0 ;
-  top: 180px;
-}
-.recruit_container img {
-   width: 100%;
-  height: 250px;
-  object-fit: cover;
-  position: relative;
-}
-.recruit {
-   position: absolute;
-  font-size: 35px;
-  color: #fff;
-  font-weight: bold;
-  top: 270px;
-  right:320px;
-}
-.recruit_text {
-  position: absolute;
-  font-size: 18px;
-  color: #fff;
-#company_wrap {
   height: 500px;
   position: relative;
 }
@@ -224,7 +194,7 @@
   position: absolute;
   width: 48%;
   height: 260px;
-  left: 0 ;
+  left: 0;
   top: 180px;
 }
 
@@ -234,7 +204,7 @@
   color: #fff;
   font-weight: bold;
   top: 270px;
-  left:320px;
+  left: 320px;
   padding-top: 95px;
   padding-bottom: 15px;
 }
@@ -246,6 +216,7 @@
   top: 320px;
   left: 370px;
 }
+
 
  /* faq */
 #faq_wrap {
