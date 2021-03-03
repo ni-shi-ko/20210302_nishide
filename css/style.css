@@ -161,34 +161,32 @@
 }
 
 /* company */
+
 #company_wrap {
   position: relative;
   height: 500px;
   padding-bottom: 100px;
 }
-.company_img,
-.recruit_img {
-  width: 45%;
+.recruit_container {
+  width: 48%;
   height: 250px;
-  object-fit: cover;
-}
-.recruit_img {
   position: absolute;
   right: 0 ;
   top: 180px;
 }
-.company_img {
-  position: absolute;
-  left: 0 ;
-  top: 180px;
+.recruit_container img {
+   width: 100%;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
 }
 .recruit {
-  position: absolute;
+   position: absolute;
   font-size: 35px;
   color: #fff;
   font-weight: bold;
   top: 270px;
-  right:330px;
+  right:320px;
 }
 .recruit_text {
   position: absolute;
@@ -196,7 +194,20 @@
   color: #fff;
   font-weight: bold;
   top: 320px;
-  right: 360px;
+  right: 370px;
+}
+.company_container {
+  width: 48%;
+  height: 250px;
+  position: absolute;
+  left: 0 ;
+  top: 180px;
+}
+.company_container img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  position: relative;
 }
 .company {
   position: absolute;
@@ -213,7 +224,7 @@
   font-weight: bold;
   top: 320px;
   left: 370px;
-}
+
 #faq_wrap {
  width: 1300px;
  height: 165px;
