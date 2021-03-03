@@ -161,11 +161,11 @@
   position: absolute;
   left: 0;
   bottom: 200px; 
- 
+}
 /* company recruit*/
 #company_wrap {
   height: 500px;
-  position: relative;
+ position: relative;
 }
 .recruit_container {
   background-image: url(../img/recruit.jpg);
