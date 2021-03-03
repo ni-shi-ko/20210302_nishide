@@ -75,6 +75,8 @@
   font-size: 27px;
   color: #ffffff;
   padding-left:150px ;
+  position: relative;
+  z-index: 10;
 }
 #mission p {
   color: #ffffff;
@@ -88,6 +90,8 @@
 }
 .btn {
   padding-left: 150px;
+  position: relative;
+  z-index: 10;
 }
 .button {
   font-size: 15px;
@@ -153,12 +157,12 @@
   right: 370px;
 }
 .service_img2 {
-   width: 50%;
+  width: 50%;
   position: absolute;
   left: 0;
   bottom: 200px; 
  
-/* company recruyite*/
+/* company recruit*/
 #company_wrap {
   height: 500px;
   position: relative;
