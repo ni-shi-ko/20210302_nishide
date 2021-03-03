@@ -39,7 +39,6 @@
   top: 460px;
   left: 160px;
 }
-
 #top .news_title{
   background: #ffffff;
   width: 850px;
@@ -158,10 +157,8 @@
   position: absolute;
   left: 0;
   bottom: 200px; 
-}
-
-/* company */
-
+ 
+/* company recruyite*/
 #company_wrap {
   position: relative;
   height: 500px;
@@ -192,52 +189,79 @@
   position: absolute;
   font-size: 18px;
   color: #fff;
+#company_wrap {
+  height: 500px;
+  position: relative;
+}
+.recruit_container {
+  background-image: url(../img/recruit.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  width: 48%;
+  height: 260px;
+  right: 0;
+  top: 180px;
+}
+.recruit {
+  text-align: center;
+  font-size: 35px;
+  color: #fff;
   font-weight: bold;
-  top: 320px;
-  right: 370px;
+  padding-top: 95px;
+  padding-bottom: 15px;
+}
+.recruit_text {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
 }
 .company_container {
-  width: 48%;
-  height: 250px;
+  background-image: url(../img/company.jpeg);
+  background-size: cover;
+  background-position: center;
   position: absolute;
+  width: 48%;
+  height: 260px;
   left: 0 ;
   top: 180px;
 }
-.company_container img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  position: relative;
-}
+
 .company {
-  position: absolute;
+  text-align: center;
   font-size: 35px;
   color: #fff;
   font-weight: bold;
   top: 270px;
   left:320px;
+  padding-top: 95px;
+  padding-bottom: 15px;
 }
 .company_text {
-  position: absolute;
+  text-align: center;
   font-size: 18px;
   color: #fff;
   font-weight: bold;
   top: 320px;
   left: 370px;
+}
 
+ /* faq */
 #faq_wrap {
- width: 1300px;
- height: 165px;
+ width: 75%;
+ height: 140px;
  background-color: #000;
  margin: 0 auto;
  position: relative;
- margin-bottom: 180px;
+ margin-top: 130px;
+ margin-bottom: 170px;
 }
 .faq_container h1{
   color: #fff;
   font-size: 40px;
   position: absolute;
-  line-height: 165px;
+  line-height: 140px;
   left: 40px;
 }
 .faq_container p {
@@ -245,12 +269,13 @@
   font-weight: bold;
   font-size: 18px;
   text-align: center;
-  line-height: 165px;
+  line-height: 140px;
 }
+
 /* contact */
 #contact {
   height: 600px;
-  margin:0 auto;
+  margin: 0 auto;
   background-image: url(../img/contact-bg.jpg);
   background-size: cover;
   background-position: center;
@@ -259,8 +284,8 @@
 .contact_title {
   font-size: 37px;
   position: absolute;
-  top: 160px;
-  left: 760px;
+  top: 30%;
+  left: 45%;
   color: #fff;
 }
 .contact_1 {
@@ -268,30 +293,28 @@
   font-size: 17px;
   font-weight: bold;
   position: absolute;
-  left: 790px;
-  top: 210px;
-  
+  left: 46.5%;
+  top: 38%;
 }
 .contact_2 {
   color: #fff;
   font-size: 35px;
   position: absolute;
-  top: 260px;
-  left: 580px;
+  top: 47%;
+  left: 34%;
 }
 .contact_3 {
   color: #fff;
   font-size: 14px;
-  
   position: absolute;
-  top: 340px;
-  left: 300px;
+  top: 58%;
+  left: 18%;
 }
 .contact_btn {
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
-  top: 400px;
-  left: 760px;
+  top: 66%;
+  left: 45%;
 }
 .contact_button {
   padding: 5px 30px;
@@ -299,6 +322,7 @@
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.1);
 }
+
 .footer {
   height: 100px;
   background-color: #000;
@@ -309,7 +333,7 @@
   align-items: center;
 }
 .footer_right {
-   color: #ffffff;
+  color: #ffffff;
   margin-left: 30px;
 }
 .footer_left ul {
