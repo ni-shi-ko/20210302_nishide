@@ -32,6 +32,7 @@
   background-size: cover;
   background-position: center;
   position: relative;
+  width: 100vw;
 }
 #top .top_message {
   position: absolute;
@@ -329,6 +330,7 @@ small {
 }
 
 @media screen and (max-width: 768px) {
+  /* humberger */
   #humberger {
     width: 40px;
     height: 40px;
@@ -360,16 +362,34 @@ small {
 .header_left {
   display: none;
 }
-
 /* top */
-.top_message {
+#top .top_message{
+ position: static;
+ text-align: center;
+}
+#top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news {
+  
+}
+.news_title {
+  position: static;
+  display: flex;
+  justify-content: left;
  
 }
-/* mission */
+.news {
+  
+}
+#mission {
+  position: static;
+}
 .mission_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
-}
-.mission_message {
-  width: 80%;
-}
 }
