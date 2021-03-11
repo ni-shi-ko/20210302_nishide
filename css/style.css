@@ -417,7 +417,7 @@ small {
   position: absolute;
   z-index: 10;
 }
-.mission_wrap img {
+#mission img {
   object-fit: cover;
   width: 130px;
   height: 80px;
