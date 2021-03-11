@@ -390,6 +390,7 @@ small {
   height: 50vh;
   padding: 40px 50px 100px 50px;
   position: static;
+  position: relative;
 }
 .mission_wrap {
   display: flex;
@@ -414,13 +415,13 @@ small {
 .button {
   padding: 10px 35px;
   margin-top: 10px;
-  position: absolute;
+  position: relative;
   z-index: 10;
 }
 #mission img {
   object-fit: cover;
-  width: 130px;
-  height: 80px;
-
+  width: 150px;
+  height: 100px;
+  top: 500px;
+  right: 20px;
 }
-
