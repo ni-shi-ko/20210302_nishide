@@ -380,11 +380,19 @@ small {
     align-items: center;
   }
 
-  .news_title {
-    position: static;
-    display: flex;
-    justify-content: left;
+   #top .news_title {
+    width: 100%;
+    height: 2vh;
   }
+  .title_2 {
+    width: 70%;
+    padding-top: 5px;
+  }
+  .news {
+    padding: 25px 15px;
+  }
+
+ /* mission */
   #mission {
     height: 50vh;
     padding: 40px 50px 100px 50px;
