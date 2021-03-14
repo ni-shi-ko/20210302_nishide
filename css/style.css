@@ -384,7 +384,8 @@ small {
   }
   .title_2 {
     width: 70%;
-    padding-top: 5px;
+    padding-left: 3px;
+    margin: 0;
   }
   .news {
     padding: 25px 15px;
