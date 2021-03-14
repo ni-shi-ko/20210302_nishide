@@ -496,7 +496,7 @@ small {
   }
   /* contact */
   #contact {
-    height: 60vh;
+    height: 59vh;
   }
   .contact_title,
   .contact_1,
@@ -524,6 +524,7 @@ small {
   /*  footer */
   #footer {
     height: 10vh;
+    padding-bottom: 3px;
   }
   .footer_right {
     margin: 0 auto;
