@@ -421,10 +421,10 @@ small {
   }
   #mission img {
     object-fit: cover;
-    width: 160px;
-    height: 110px;
+    width: 180px;
+    height: 115px;
     top: 450px;
-    right: 20px;
+    right: 18px;
     z-index: 5;
   }
   .button {
@@ -496,7 +496,7 @@ small {
   }
   /* contact */
   #contact {
-    height: 70vh;
+    height: 60vh;
   }
   .contact_title,
   .contact_1,
