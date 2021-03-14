@@ -397,7 +397,7 @@ small {
   }
   /* mission */
   #mission {
-    height: 50vh;
+    height: 410px;
     padding: 40px 50px 70px;
     position: static;
     position: relative;
@@ -528,7 +528,7 @@ small {
   }
   /*  footer */
   #footer {
-    height: 10vh;
+    height: 90%;
     padding-bottom: 3px;
   }
   .footer_right {
@@ -537,5 +537,8 @@ small {
   }
   .footer_left {
     display: none;
+  }
+  small {
+    width: 100%;
   }
 }
