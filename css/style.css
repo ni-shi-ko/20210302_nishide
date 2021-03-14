@@ -106,6 +106,8 @@ body {
 }
 #mission img {
   display: block;
+  /* width: 650px;
+  height: 450px; */
   width: 38%;
   height: 80%;
   position: absolute;
@@ -118,6 +120,10 @@ body {
   background: rgb(241, 241, 241);
   position: relative;
 }
+/* .service_wrap {
+  display: flex;
+  justify-content: flex-end;
+} */
 .service_title {
   font-size: 30px;
   text-align: center;
@@ -209,6 +215,7 @@ body {
   left: 0;
   top: 180px;
 }
+
 .company {
   text-align: center;
   font-size: 35px;
@@ -252,7 +259,6 @@ body {
   text-align: center;
   line-height: 140px;
 }
-
 /* contact */
 #contact {
   height: 600px;
@@ -302,8 +308,6 @@ body {
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0.1);
 }
-
-/* footer */
 #footer {
   height: 100px;
   background-color: #000;
@@ -365,7 +369,6 @@ small {
   .header_left {
     display: none;
   }
-  
   /* top */
   #top .top_message {
     position: static;
@@ -392,7 +395,6 @@ small {
     padding: 25px 15px;
     line-height: 20px;
   }
-  
   /* mission */
   #mission {
     height: 50vh;
@@ -537,5 +539,3 @@ small {
     display: none;
   }
 }
-
-
